@@ -106,3 +106,39 @@ Here Jane contacts Karen and confirms the issue is resolved. Jane now repost her
 Jane then clicks the ticket's status and clcks resolved
 
 
+<h2>Ticket number 2</h2>
+
+<img width="601" height="824" alt="image" src="https://github.com/user-attachments/assets/5c9e1458-d975-49e4-b50a-a4d7d041b74c" />
+
+Ken creates a ticket. The ticket is now sent to John.
+
+<img width="844" height="342" alt="image" src="https://github.com/user-attachments/assets/ba8cf3de-b603-48d0-83d5-b5dbbe3f9eea" />
+
+John logs in and see Ken's ticket.
+
+<img width="631" height="664" alt="image" src="https://github.com/user-attachments/assets/9c999add-4c3c-4895-a2bf-4d2532a0421e" />
+
+John contacts Ken to understand and gain more details on ticket issue. John then clicks post reply. 
+
+<img width="820" height="420" alt="image" src="https://github.com/user-attachments/assets/8a59ccdb-6d55-4b3e-8535-b09d52a07289" />
+
+John then clicks "priority level" to high then update.
+
+<img width="556" height="215" alt="image" src="https://github.com/user-attachments/assets/d81e8e7a-5fa4-4d9e-96b8-af95e9564b45" />
+
+John then cliks SLA Plan. John then changes from default to "Sev-B" then upadte.
+
+<img width="779" height="683" alt="image" src="https://github.com/user-attachments/assets/a8a17878-aa83-48df-b795-827668f30e20" />
+
+John then upadtes the ticket and provides that he contaced Josh from the Desktop Admin Group. John the post his reply in osticket.
+
+<img width="719" height="514" alt="image" src="https://github.com/user-attachments/assets/3e0f9383-17e7-4452-a0ad-fd9470e3e2d8" />
+
+John then post the install is working and everyone is fully up and running.
+
+<img width="565" height="189" alt="image" src="https://github.com/user-attachments/assets/826b82a2-41bd-4a0e-9cc3-46976e97aad3" />
+
+John then click "Status" and changes the ticket status to closed
+
+
+
