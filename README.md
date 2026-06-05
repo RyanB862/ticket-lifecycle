@@ -3,6 +3,7 @@
 </p>
 
 # Ticket-Lifecycle-Intake-Through-Resolution
+In this lab, I worked through the complete incident management lifecycle using osTicket. I created and managed tickets, assigned priorities and SLAs, routed incidents to appropriate departments, observed role-based access controls, escalated critical issues, communicated through ticket updates, and resolved tickets from creation through closure, simulating real-world helpdesk operations.
 This outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.
 
 <h2>Environments and Technologies Used</h2>
@@ -70,7 +71,7 @@ Once inside I click admin portal then I click the agents tab then departments
 
 <img width="835" height="305" alt="image" src="https://github.com/user-attachments/assets/b9d0f467-ef7b-40b8-8397-c6dbc9ee6512" />
 
-I then click maintn=enance and then click delete. Deleting the Maintenance Department reduces unnecessary departments, making ticket assignment and escalation easier to manage. This helps demonstrate how tickets move between active departments Support and SysAdmins. There's no reason to keep an extra department that won't be used. This makes ticket routing clearer and easier to follow during the lab.
+I then click maintn=enance and then click delete. Deleting the Maintenance Department reduces unnecessary departments, making ticket assignment and escalation easier to manage. This helps demonstrate how tickets move between active departments Support and SysAdmins. Removing unused departments keeps the ticketing environment organized and reduces routing confusion.
 
 <img width="731" height="428" alt="image" src="https://github.com/user-attachments/assets/ed642960-7e18-4bc6-8f7b-d4b5abc50256" />
 
@@ -90,6 +91,7 @@ I then login as John (helpdesk) to work Karen's ticket. I then click on Karen's 
 <img width="829" height="695" alt="image" src="https://github.com/user-attachments/assets/5c28d46d-b728-4a8c-ba05-a3df578140df" />
 
 John is only is able to make notes due to his "Read Only" permission. Once the note is taken John logs out.
+This demonstrates how department-based permissions restrict access and protect ticket ownership.
 
 <img width="840" height="333" alt="image" src="https://github.com/user-attachments/assets/e5e3db7d-47b8-4547-9f9d-5d531f1d4f08" />
 <img width="841" height="364" alt="image" src="https://github.com/user-attachments/assets/6bad8945-488a-4610-9074-3370b46653e0" />
@@ -100,6 +102,7 @@ I then click John Doe.
 
 Then I click Agents then access. I then grant John "full access".  
 This allows John full permission to work the ticket. Then click save changes then log out.
+These properties determine how quickly the issue is handled and who is responsible for resolution.
 
 <img width="826" height="441" alt="image" src="https://github.com/user-attachments/assets/8f933c51-eaa6-4a6d-91b5-7bf25f57b035" />
 <img width="824" height="480" alt="image" src="https://github.com/user-attachments/assets/21b133c6-2d82-4beb-b48d-e39aa0e19b77" />
@@ -107,6 +110,7 @@ This allows John full permission to work the ticket. Then click save changes the
 
 John now logs back in and clicks "Priority Level". With new permissions granted John is able to update the ticket's priority level and SLA plan.
 John then changes ticket priority level to "emergency" and SLA plan to Sev-A business critical then clicks update.
+A Severity A SLA ensures immediate response for business-critical outages requiring urgent attention.
 
 <img width="765" height="621" alt="image" src="https://github.com/user-attachments/assets/ffd3e8a9-a0bd-4c84-89fb-0ace02457707" />
 <img width="820" height="568" alt="image" src="https://github.com/user-attachments/assets/dd615df7-7065-47b0-98ed-46ac0122a58b" />
@@ -118,6 +122,7 @@ John then updates ticket by triaging ticket to Sysadmin.
 
 I then click and change "Assigned To" Jane Doe. 
 Then I click "Department" and assign to SysAdmins then click transfer.
+Resolving the ticket verifies that escalated issues can be managed by authorized personnel.
 
 <img width="842" height="338" alt="image" src="https://github.com/user-attachments/assets/8947051e-f5d8-49a8-aded-230c410891e5" />
 
@@ -146,6 +151,7 @@ Jane then clicks the ticket's status and clcks resolved
 <img width="601" height="824" alt="image" src="https://github.com/user-attachments/assets/5c9e1458-d975-49e4-b50a-a4d7d041b74c" />
 
 Ken creates a ticket. The ticket is now sent to John.
+This simulates a standard service request commonly handled by IT support teams.
 
 <img width="844" height="342" alt="image" src="https://github.com/user-attachments/assets/ba8cf3de-b603-48d0-83d5-b5dbbe3f9eea" />
 
@@ -162,6 +168,7 @@ John then clicks "priority level" to high then update.
 <img width="556" height="215" alt="image" src="https://github.com/user-attachments/assets/d81e8e7a-5fa4-4d9e-96b8-af95e9564b45" />
 
 John then cliks SLA Plan. John then changes from default to "Sev-B" then upadte.
+A Severity B SLA prioritizes the issue appropriately without treating it as a critical outage.
 
 <img width="779" height="683" alt="image" src="https://github.com/user-attachments/assets/a8a17878-aa83-48df-b795-827668f30e20" />
 
